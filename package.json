@@ -1,0 +1,21 @@
+{
+  "name": "cryptocurrency.js",
+  "author": "Ziftr",
+  "description": "",
+  "version": "0.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ziftr/cryptocurrency.js"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.8",
+    "lodash": "^3.1.0",
+    "bignum": "~0.10.0"
+  },
+  "devDependencies": {
+  },
+  "jshintConfig": {
+    "node": true
+  }
+}
