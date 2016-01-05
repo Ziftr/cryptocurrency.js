@@ -1,21 +1,68 @@
 {
-  "name": "cryptocurrency.js",
-  "author": "Ziftr",
-  "description": "",
-  "version": "0.0.0",
-  "private": true,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Ziftr/cryptocurrency.js"
+  "_args": [
+    [
+      "cryptocurrency.js@git://github.com/Ziftr/cryptocurrency.js.git",
+      "/opt/code/src"
+    ]
+  ],
+  "_from": "git://github.com/Ziftr/cryptocurrency.js.git",
+  "_id": "cryptocurrency.js@0.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cryptocurrency.js",
+  "_phantomChildren": {},
+  "_requested": {
+    "hosted": {
+      "directUrl": "https://raw.githubusercontent.com/Ziftr/cryptocurrency.js/master/package.json",
+      "gitUrl": "git://github.com/Ziftr/cryptocurrency.js.git",
+      "httpsUrl": "git+https://github.com/Ziftr/cryptocurrency.js.git",
+      "shortcut": "github:Ziftr/cryptocurrency.js",
+      "ssh": "git@github.com:Ziftr/cryptocurrency.js.git",
+      "sshUrl": "git+ssh://git@github.com/Ziftr/cryptocurrency.js.git",
+      "type": "github"
+    },
+    "name": "cryptocurrency.js",
+    "raw": "cryptocurrency.js@git://github.com/Ziftr/cryptocurrency.js.git",
+    "rawSpec": "git://github.com/Ziftr/cryptocurrency.js.git",
+    "scope": null,
+    "spec": "git://github.com/Ziftr/cryptocurrency.js.git",
+    "type": "hosted"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git://github.com/Ziftr/cryptocurrency.js.git#e21633867da1946c19fedbc8f6ac16770acb0387",
+  "_shasum": "8d71ef1a18b936cb37ff9ed8629dc0a0cb27d0c9",
+  "_shrinkwrap": null,
+  "_spec": "cryptocurrency.js@git://github.com/Ziftr/cryptocurrency.js.git",
+  "_where": "/opt/code/src",
+  "author": {
+    "name": "Ziftr"
+  },
+  "bugs": {
+    "url": "https://github.com/Ziftr/cryptocurrency.js/issues"
   },
   "dependencies": {
+    "bignum": "~0.11.0",
     "bluebird": "^2.9.8",
-    "lodash": "^3.1.0",
-    "bignum": "~0.11.0"
+    "bs58": "^3.0.0",
+    "lodash": "^3.1.0"
   },
-  "devDependencies": {
-  },
+  "description": "Library for connecting to blockchain peers",
+  "devDependencies": {},
+  "gitHead": "e21633867da1946c19fedbc8f6ac16770acb0387",
+  "homepage": "https://github.com/Ziftr/cryptocurrency.js#readme",
   "jshintConfig": {
     "node": true
-  }
+  },
+  "name": "cryptocurrency.js",
+  "optionalDependencies": {},
+  "private": true,
+  "readme": "# cryptocurrency.js\n\nLibrary for connecting to blockchain peers\n\n## Overview\n\nDesigned to open a socket to a locally running blockchain server and monitor for new blocks. Simulates 'push requests' behavior.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ziftr/cryptocurrency.js.git"
+  },
+  "version": "0.0.0"
 }
